@@ -11,19 +11,17 @@
 <header>
     <h1> Weather Dashboard</h1>
     <form id="city-search" role="search">
-        <input type="search" id="city" name="search"
-         placeholder="Search City">
-        <button>Search</button>
+        <input type="search" id="sCity" name="search" placeholder="Search City">
+        <button id="sBut">Search</button>
         <br>
-       <button class="clear"> Clear History</button>
+       <button id="clear"> Clear History</button>
       </form>
        
       <section> 
         <h4>5 Day Forecast:</h4>
-      </section>
+      </section> <br>
 
         <div>
-        <br>
         <h5>Day 1</h5>
         <p>Temperature:<span id="temp" ></span></p>
         <p>Humidity:<span id="hum" ></span></p>
@@ -41,7 +39,7 @@
         <h5>Day 3</h5>
         <p>Temperature:<span id="temp" ></span></p>
         <p>Humidity:<span id="hum" ></span></p>
-        <p>Wind Speed:<span id="wind" ></span></p>
+        <p>Wind Speed:   <span id="wind" ></span></p>
       </div>
 
       <div>

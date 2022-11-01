@@ -10,7 +10,7 @@
 
 h4, h5 {
    font-size: 33px;
-   margin-top: 100px;
+   margin-top: 20px;
    color: rgb(11, 11, 109); 
 }
 
@@ -40,5 +40,7 @@ div {
    display:inline-table;
    text-align: auto;
   position: relative;
-  margin-left: 200px;
+  margin-left: 240px;
+  border:  2px solid black;
+ 
  }
